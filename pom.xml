@@ -6,7 +6,26 @@
 
     <groupId>com.liss</groupId>
     <artifactId>Micro-platform</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <!--        gateway网关-->
+        <module>liss-gateway</module>
+        <!--        本地配置文件，生产时使用nacos或apllo-->
+        <module>liss-config</module>
+        <!--        公共组件层，starter或公共包-->
+        <module>liss-commons</module>
+        <!--        分布式事务服务端-->
+        <module>liss-transsction</module>
+        <!--        可视化监控层：APM、springAdmin、logCenter、慢sql-->
+        <module>liss-monitor</module>
+        <!--        认证中心-->
+        <module>liss-uaa</module>
+        <!--        基础服务层：用户中心、搜索中心、文件中心、代码生成器-->
+        <module>liss-infrastructure</module>
+        <!--        业务分层-->
+        <module>liss-service</module>
+    </modules>
 
 
 </project>

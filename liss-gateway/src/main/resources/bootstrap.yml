@@ -1,0 +1,19 @@
+server:
+  port: 9900
+
+liss:
+  nacos:
+    server-addr: 127.0.0.1:8848
+
+spring:
+  application:
+    name: sc-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: ${liss.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${liss.nacos.server-addr}

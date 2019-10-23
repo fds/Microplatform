@@ -11,5 +11,12 @@
 
     <artifactId>liss-config</artifactId>
 
-
+    <packaging>jar</packaging>
+    <description>配置中心</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
 </project>

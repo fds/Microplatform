@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>liss-commons</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+<!--        公共组件-->
+        <module>liss-common-core</module>
+<!--        日志-->
+        <module>liss-log-spring-boot-starter</module>
+        <module>liss-redis-spring-boot-starter</module>
+        <module>liss-auth-client-spring-boot-starter</module>
+        <module>liss-sentinel-spring-boot-starter</module>
+        <module>liss-ribbon-spring-boot-starter</module>
+        <module>liss-common-spring-boot-starter</module>
+        <module>liss-db-spring-boot-starter</module>
+        <module>liss-swagger2-spring-boot-starter</module>
+    </modules>
 
 
 </project>

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.liss.common.filter.TenantFilter,\
+com.liss.common.filter.TraceFilter

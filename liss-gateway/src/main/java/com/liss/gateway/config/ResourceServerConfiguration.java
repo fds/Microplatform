@@ -29,7 +29,7 @@ public class ResourceServerConfiguration {
     @Autowired
     private SecurityProperties securityProperties;
 
-    @Autowired
+//    @Autowired
     private TokenStore tokenStore;
 
     @Autowired
